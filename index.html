@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Humo Bar Co. | Elevated Craft Cocktail Service | Austin, TX</title>
+<meta name="description" content="Humo Bar Co. is a structured event bartending operation in Austin, Texas offering Classic, Elevated, and Premium craft cocktail service packages for weddings, corporate events, and private celebrations.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo" onclick="showView('home'); return false;">HUMO <span>Bar</span> Co.</a>
+  <ul class="nav-links">
+    <li><a href="#packages" onclick="showView('home'); return false;" id="nav-packages">Packages</a></li>
+    <li><a href="#process" onclick="showView('home'); return false;" id="nav-process">Process</a></li>
+    <li><a href="#why" onclick="showView('home'); return false;" id="nav-why">Why Us</a></li>
+    <li><a href="#policies" onclick="showView('home'); return false;" id="nav-policies">Policies</a></li>
+    <li><a href="#" class="nav-link-payment" id="nav-payments" onclick="showView('payments'); return false;">Payments</a></li>
+    <li><a href="#" class="nav-link-admin" id="nav-admin" onclick="showView('admin'); return false;">Admin</a></li>
+  </ul>
+  <a href="#" class="nav-cta" onclick="showView('home'); setTimeout(()=>document.getElementById('inquiry').scrollIntoView({behavior:'smooth'}),50); return false;">Book Your Event</a>
+</nav>
+
+<div id="view-home" class="site-view" style="display:block;">
+<section class="hero">
+  <div class="hero-glow"></div>
+  <p class="hero-eyebrow">Austin, Texas &nbsp;·&nbsp; Elevated Event Bartending</p>
+  <h1 class="hero-headline">
+    When the Bar<br>
+    <em>Runs Right</em>
+    <span class="indent">Everything Follows.</span>
+  </h1>
+  <p class="hero-sub">Humo Bar Co. is a structured hospitality operation delivering craft cocktail service with professional precision. We don't just pour drinks — we manage one of the most important parts of your event.</p>
+  <div class="hero-actions">
+    <a href="#inquiry" class="btn-primary">Request a Proposal</a>
+    <a href="#packages" class="btn-ghost">View Packages</a>
+  </div>
+  <div class="stat-strip">
+    <div class="stat-item"><div class="stat-num">3</div><div class="stat-label">Service Tiers</div></div>
+    <div class="stat-item"><div class="stat-num">24h</div><div class="stat-label">Proposal Turnaround</div></div>
+    <div class="stat-item"><div class="stat-num">Dry</div><div class="stat-label">Hire Model</div></div>
+    <div class="stat-item"><div class="stat-num">∞</div><div class="stat-label">Good Vibes</div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="about" id="about">
+  <div>
+    <span class="section-label">Who We Are</span>
+    <h2 class="about-headline">Not Freelance Bartending.<br><em>A Hospitality Brand.</em></h2>
+    <p class="about-body">Humo Bar Co. is built on systems, standards, and accountability. We are a team of trained, certified bartenders who understand that great service is not just about making drinks — it's about creating an environment where people feel comfortable, taken care of, and fully present.</p>
+    <p class="about-body">Every event is executed with a plan. From bar layout to garnish prep, everything is structured to allow our team to work efficiently — so your guests stay engaged, not standing in line.</p>
+    <div class="pillars">
+      <div class="pillar"><span class="pillar-dot"></span>Certified &amp; Professional Staff</div>
+      <div class="pillar"><span class="pillar-dot"></span>Structured Service Model — Every Time</div>
+      <div class="pillar"><span class="pillar-dot"></span>Dry Hire (You Control the Alcohol)</div>
+      <div class="pillar"><span class="pillar-dot"></span>Weddings · Corporate · Private Events</div>
+    </div>
+  </div>
+  <div class="quote-card">
+    <div class="quote-mark">"</div>
+    <p class="quote-text">"You don't just get drinks. You don't just get bartenders. You get a team that understands how to run one of the most important parts of your event."</p>
+    <p class="quote-attr">— Humo Bar Co. Promise</p>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="service-model">
+  <div class="section-center">
+    <span class="section-label">How It Works</span>
+    <h2 class="section-title">The <em>Dry Hire</em> Advantage</h2>
+  </div>
+  <div class="model-grid">
+    <div class="model-card">
+      <div class="model-icon">☑</div>
+      <h3 class="model-title">You Provide the Alcohol</h3>
+      <p class="model-body">You purchase all liquor, beer, and wine based on your preferences and budget. We provide clear quantity guidance so there's no guesswork and no overspending.</p>
+    </div>
+    <div class="model-card">
+      <div class="model-icon">◈</div>
+      <h3 class="model-title">We Handle Everything Else</h3>
+      <p class="model-body">Bar setup, breakdown, cocktail menu, mixers, garnishes, tools, service flow — all managed by our team with a defined process from start to finish.</p>
+    </div>
+    <div class="model-card">
+      <div class="model-icon">✦</div>
+      <h3 class="model-title">You Get Peace of Mind</h3>
+      <p class="model-body">Greater flexibility on selection, cost control for you, a fully managed operation with no extra coordination needed. The bar runs — so you don't have to think about it.</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="packages" id="packages">
+  <div class="packages-intro">
+    <span class="section-label">Service Packages</span>
+    <h2 class="section-title">Choose Your <em>Experience</em></h2>
+    <p>Three tiers of bar service — plus a curated small bites menu. All built on the same foundation of professionalism, structure, and craft.</p>
+  </div>
+
+  <!-- TABS -->
+  <div class="pkg-tabs">
+    <button class="pkg-tab active" onclick="switchTab(event, 'tab-bar')">Bar Service</button>
+    <button class="pkg-tab" onclick="switchTab(event, 'tab-bites')">Small Bites</button>
+  </div>
+
+  <!-- BAR SERVICE PANEL -->
+  <div class="pkg-panel active" id="tab-bar">
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <div class="pkg-head">
+          <div class="pkg-tier">Tier 01</div>
+          <div class="pkg-name">Classic</div>
+          <div class="pkg-for">Small gatherings · Up to 75 guests</div>
+        </div>
+        <div class="pkg-price-block">
+          <div class="pkg-price-main">$900–$1,250</div>
+          <div class="pkg-price-sub">Flat rate · Intentionally streamlined</div>
+        </div>
+        <ul class="pkg-features">
+          <li>1 certified bartender + 1 barback</li>
+          <li>3 classic cocktails</li>
+          <li>Standard mixer list provided</li>
+          <li>Basic bar tools &amp; equipment</li>
+          <li>4-hour service window</li>
+          <li>Professional uniformed staff</li>
+          <li>Full setup + breakdown</li>
+        </ul>
+        <div class="pkg-foot"><a href="#inquiry" class="pkg-btn">Inquire About Classic</a></div>
+      </div>
+
+      <div class="pkg-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <div class="pkg-head">
+          <div class="pkg-tier">Tier 02</div>
+          <div class="pkg-name">Elevated</div>
+          <div class="pkg-for">Weddings · Corporate · 75–125 guests</div>
+        </div>
+        <div class="pkg-price-block">
+          <div class="pkg-price-main">$1,250 <span style="font-size:1.1rem;opacity:0.5">base</span></div>
+          <div class="pkg-price-sub">+ $28–$32 per guest</div>
+          <div class="pkg-price-eg">Example: 100 guests → $4,150</div>
+        </div>
+        <ul class="pkg-features">
+          <li>1 bartender per 50 guests + barback</li>
+          <li>1 tray-pass server per 75 guests</li>
+          <li>2–4 signature custom cocktails</li>
+          <li>Custom menu consultation</li>
+          <li>Fresh mixers + house syrups</li>
+          <li>Structured garnish program</li>
+          <li>Custom printed menus</li>
+          <li>Ice &amp; supply guidance</li>
+          <li>4–5 hour service window</li>
+          <li>Professional uniformed staff</li>
+          <li>Full setup + breakdown</li>
+        </ul>
+        <div class="pkg-foot"><a href="#inquiry" class="pkg-btn">Inquire About Elevated</a></div>
+      </div>
+
+      <div class="pkg-card">
+        <div class="pkg-head">
+          <div class="pkg-tier">Tier 03</div>
+          <div class="pkg-name">Premium</div>
+          <div class="pkg-for">Luxury events · Corporate launches · 125+</div>
+        </div>
+        <div class="pkg-price-block">
+          <div class="pkg-price-main">$1,750 <span style="font-size:1.1rem;opacity:0.5">base</span></div>
+          <div class="pkg-price-sub">+ $34–$40 per guest</div>
+          <div class="pkg-price-eg">Example: 150 guests → $7,150</div>
+        </div>
+        <ul class="pkg-features">
+          <li>1 bartender per 50 guests + barback</li>
+          <li>1 tray-pass server per 75 guests</li>
+          <li>4–6 advanced custom cocktails</li>
+          <li>Elevated garnish execution</li>
+          <li>Interactive elements (smoke, presentation)</li>
+          <li>Custom printed menus</li>
+          <li>Fresh mixers + house syrups</li>
+          <li>Ice &amp; supply guidance</li>
+          <li>5-hour service window</li>
+          <li>Professional uniformed staff</li>
+          <li>Full setup + breakdown</li>
+        </ul>
+        <div class="pkg-foot"><a href="#inquiry" class="pkg-btn">Inquire About Premium</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SMALL BITES PANEL -->
+  <div class="pkg-panel" id="tab-bites">
+    <p class="bites-intro">A curated selection of passed and stationed bites designed to complement your bar experience. All items are prepared fresh and paired to your event style.</p>
+    <span class="bites-note">Pricing available upon inquiry · Menu items subject to seasonal availability</span>
+
+    <div class="bites-grid">
+
+      <div class="bites-category">
+        <div class="bites-cat-title">Passed Bites</div>
+        <div class="bites-cat-sub">Served by tray-pass staff during cocktail hour</div>
+        <ul class="bites-list">
+          <li><span class="bite-name">Smoked Brisket Crostini</span><span class="bite-desc">Whipped horseradish, pickled red onion, fresh chive</span></li>
+          <li><span class="bite-name">Shrimp Aguachile Spoon</span><span class="bite-desc">Cucumber, serrano, lime, cilantro oil</span></li>
+          <li><span class="bite-name">Wagyu Beef Slider</span><span class="bite-desc">Caramelized onion, sharp cheddar, house aioli, brioche</span></li>
+          <li><span class="bite-name">Whipped Ricotta Crostini</span><span class="bite-desc">Fig jam, candied walnut, fresh thyme, sea salt</span></li>
+          <li><span class="bite-name">Spicy Tuna Wonton Cup</span><span class="bite-desc">Avocado, sesame, sriracha crema, microgreens</span></li>
+          <li><span class="bite-name">Prosciutto-Wrapped Melon</span><span class="bite-desc">Fresh basil, aged balsamic reduction, cracked pepper</span></li>
+        </ul>
+      </div>
+
+      <div class="bites-category">
+        <div class="bites-cat-title">Stationed Boards</div>
+        <div class="bites-cat-sub">Display spreads set at guest flow points</div>
+        <ul class="bites-list">
+          <li><span class="bite-name">Elevated Charcuterie Board</span><span class="bite-desc">Artisan meats, aged cheeses, house-made jams, crackers, fresh fruit</span></li>
+          <li><span class="bite-name">Smoked Salmon Display</span><span class="bite-desc">Capers, dill cream cheese, red onion, everything bagel chips</span></li>
+          <li><span class="bite-name">Mediterranean Mezze Spread</span><span class="bite-desc">Hummus, roasted red pepper dip, olives, grilled pita, fresh crudité</span></li>
+          <li><span class="bite-name">Texas BBQ Station</span><span class="bite-desc">Smoked meats, jalapeño cornbread, pickled vegetables, house sauces</span></li>
+          <li><span class="bite-name">Seasonal Crudité &amp; Dip</span><span class="bite-desc">Market vegetables, green goddess, whipped feta, roasted garlic hummus</span></li>
+        </ul>
+      </div>
+
+      <div class="bites-category">
+        <div class="bites-cat-title">Sweet Finishes</div>
+        <div class="bites-cat-sub">Paired to complement your cocktail menu</div>
+        <ul class="bites-list">
+          <li><span class="bite-name">Mini Churro Bites</span><span class="bite-desc">Cinnamon sugar, dark chocolate dipping sauce, cajeta drizzle</span></li>
+          <li><span class="bite-name">Salted Caramel Brownie Bite</span><span class="bite-desc">Fleur de sel, espresso glaze, gold leaf finish</span></li>
+          <li><span class="bite-name">Lemon Tart Tartlet</span><span class="bite-desc">Meyer lemon curd, Italian meringue, candied zest</span></li>
+          <li><span class="bite-name">Smoked Dark Chocolate Truffle</span><span class="bite-desc">Hickory smoke infusion, cocoa dusting, raspberry coulis</span></li>
+          <li><span class="bite-name">Seasonal Fruit Skewer</span><span class="bite-desc">Market fruit, honey-lime glaze, fresh mint, Tajín rim option</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="bites-cta">
+      <div class="bites-cta-text">Ready to add <em>Small Bites</em> to your event?</div>
+      <a href="#inquiry" class="btn-primary">Inquire to Book</a>
+    </div>
+  </div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<section class="addons">
+  <div class="section-center">
+    <span class="section-label">Enhancements</span>
+    <h2 class="section-title">Add-Ons &amp; <em>Upgrades</em></h2>
+  </div>
+  <div class="addons-grid">
+    <div class="addon-card"><div class="addon-name">Additional Service Hours</div><div class="addon-price">From $150–$200 / hr per bartender</div><div class="addon-desc">Extend bar service beyond your included time window.</div></div>
+    <div class="addon-card"><div class="addon-name">Additional Bartenders / Barbacks</div><div class="addon-price">Bartenders $250–$350 · Barbacks $175–$225</div><div class="addon-desc">Increase staffing to improve speed and reduce wait times.</div></div>
+    <div class="addon-card"><div class="addon-name">Custom Cocktail Development</div><div class="addon-price">From $150–$300 per cocktail</div><div class="addon-desc">Additional signature cocktails tailored to your event theme.</div></div>
+    <div class="addon-card"><div class="addon-name">Smoked Cocktail Experience</div><div class="addon-price">From $250–$400 per event</div><div class="addon-desc">Interactive smoked cocktails adding depth, aroma, and visual impact.</div></div>
+    <div class="addon-card"><div class="addon-name">Large Format / Batch Cocktails</div><div class="addon-price">From $150–$300 per batch</div><div class="addon-desc">Pre-batched for faster service and consistent quality at volume.</div></div>
+    <div class="addon-card"><div class="addon-name">Custom Branded Cups</div><div class="addon-price">From $275 per 150 cups</div><div class="addon-desc">Professionally designed branded cocktail cups for a polished look.</div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- SMALL BITES — Edit menu data in the BITES_DATA object in the <script> below -->
+<section class="bites" id="bites">
+  <div class="bites-intro">
+    <span class="section-label">Small Bites</span>
+    <div class="bites-season-tag">Spring / Summer 2025</div>
+    <h2 class="section-title">Seasonal <em>Food Pairings</em></h2>
+    <p>Thoughtfully curated small bites that pair with our cocktail menus. Menus rotate with the seasons to reflect what's fresh and available — so every event feels current and intentional.</p>
+  </div>
+
+  <!-- PRICING TIERS -->
+  <div class="bites-pricing-strip">
+    <div class="bites-price-card">
+      <div class="bites-price-tier">Light Spread</div>
+      <div class="bites-price-label">3 Bites</div>
+      <div class="bites-price-amount">$18<span style="font-size:1.2rem;opacity:0.6">/pp</span></div>
+      <div class="bites-price-detail">Choose any 3 items · Passed or stationed</div>
+    </div>
+    <div class="bites-price-card featured">
+      <div class="bites-price-tier">Full Pairing</div>
+      <div class="bites-price-label">5 Bites</div>
+      <div class="bites-price-amount">$28<span style="font-size:1.2rem;opacity:0.6">/pp</span></div>
+      <div class="bites-price-detail">Choose any 5 items · Passed or stationed · Recommended</div>
+    </div>
+    <div class="bites-price-card">
+      <div class="bites-price-tier">Full Table</div>
+      <div class="bites-price-label">Full Menu</div>
+      <div class="bites-price-amount">$42<span style="font-size:1.2rem;opacity:0.6">/pp</span></div>
+      <div class="bites-price-detail">All seasonal items · Stationed grazing display</div>
+    </div>
+  </div>
+
+  <!-- SEASONAL MENUS — rendered by JS from BITES_DATA below -->
+  <div class="bites-menus" id="bitesMenus"></div>
+
+  <p class="bites-note">
+    <strong>Menus rotate seasonally</strong> based on what's fresh and available.<br>
+    All bites are designed to complement our cocktail programs. Custom pairings available on request.
+  </p>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="process" id="process">
+  <div class="section-center">
+    <span class="section-label">How We Work</span>
+    <h2 class="section-title">From <em>Inquiry</em> to Execution</h2>
+  </div>
+  <div class="steps">
+    <div class="step"><div class="step-num">01</div><h3 class="step-title">You Inquire</h3><p class="step-body">Submit your event details. We respond within 24 hours. Fast response builds trust — and it starts here.</p></div>
+    <div class="step"><div class="step-num">02</div><h3 class="step-title">Discovery Call</h3><p class="step-body">A focused 15-minute call. We learn your vision, guest count, venue, and cocktail expectations. We advise — not just take orders.</p></div>
+    <div class="step"><div class="step-num">03</div><h3 class="step-title">Proposal Sent</h3><p class="step-body">Clean, professional PDF within 48 hours. Service tier, staffing, pricing, deposit required. No surprises.</p></div>
+    <div class="step"><div class="step-num">04</div><h3 class="step-title">Event Day</h3><p class="step-body">Our team arrives early. Every drink, every interaction follows a defined process. Your bar runs right — so everything else can too.</p></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="policies" id="policies">
+  <div class="section-center">
+    <span class="section-label">Booking &amp; Policies</span>
+    <h2 class="section-title">Transparent by <em>Design</em></h2>
+  </div>
+  <div class="policies-grid">
+    <div class="policy-card"><div class="policy-title">Payment Terms</div><div class="policy-body"><strong>50% non-refundable deposit</strong> secures your date. Remaining balance due <strong>7 days prior</strong> to the event. No services rendered without full payment. Your date is not reserved until deposit and signed agreement are received.</div></div>
+    <div class="policy-card"><div class="policy-title">Cancellation Policy</div><div class="policy-body">Deposit is non-refundable in all cases. <strong>14+ days out:</strong> No additional charges. <strong>7–13 days out:</strong> 75% of total invoice due. <strong>Within 7 days:</strong> 100% of total invoice due.</div></div>
+    <div class="policy-card"><div class="policy-title">Guest Count Finalization</div><div class="policy-body">Final guest count must be submitted <strong>10 days prior</strong> to the event. This locks staffing, supplies, and service flow. Increases after this point may result in additional charges. No reductions after finalization.</div></div>
+    <div class="policy-card"><div class="policy-title">Alcohol &amp; Responsibility</div><div class="policy-body">Client is responsible for all alcohol purchase. We provide <strong>clear quantity guidelines</strong> to prevent shortages or overspending. Humo Bar Co. does not supply alcohol and is not liable for alcohol-related incidents. We reserve the right to refuse service to intoxicated individuals.</div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="why" id="why">
+  <div class="why-left">
+    <span class="section-label">Why Humo Bar Co.</span>
+    <h2 class="why-headline">What Sets Us <em>Apart</em></h2>
+    <p class="why-intro">Most bartending services focus on pouring drinks. We focus on how the bar operates within your event. We don't just show up — we prepare, structure, and execute with intention. Every time.</p>
+    <a href="#inquiry" class="btn-primary">Start Your Inquiry</a>
+  </div>
+  <div class="diffs">
+    <div class="diff"><div class="diff-title"><span></span>Professional Conduct</div><div class="diff-body">Our team operates with discipline, respect, and awareness of the environment — whether it's a wedding, corporate event, or private celebration. This is not gig work.</div></div>
+    <div class="diff"><div class="diff-title"><span></span>Consistent Execution</div><div class="diff-body">Every drink, every interaction, and every step of service follows a defined process — so reliability isn't a goal, it's the baseline.</div></div>
+    <div class="diff"><div class="diff-title"><span></span>Clean, Intentional Presentation</div><div class="diff-body">From bar setup to garnish detail, everything is designed to look organized, polished, and aligned with your event. The bar should be a feature, not an afterthought.</div></div>
+    <div class="diff"><div class="diff-title"><span></span>Guest Experience Control</div><div class="diff-body">We manage flow, reduce wait times, and maintain a steady rhythm so guests stay engaged — not standing in line or waiting on service.</div></div>
+    <div class="diff"><div class="diff-title"><span></span>Seamless Coordination</div><div class="diff-body">We work alongside planners, venues, and vendors to ensure the bar supports the event — not disrupts it. We communicate before, during, and after.</div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="inquiry" id="inquiry">
+  <div class="inquiry-inner">
+    <span class="section-label">Get Started</span>
+    <h2 class="section-title">Request a <em>Proposal</em></h2>
+    <p class="inquiry-intro">Tell us about your event. We'll review your details and respond within 24 hours with a tailored proposal.</p>
+    <form class="form-grid" id="inquiryForm" onsubmit="handleSubmit(event)">
+      <div class="form-group"><label>Full Name</label><input type="text" placeholder="Your name" required></div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(512) 000-0000"></div>
+      <div class="form-group"><label>Email Address</label><input type="email" placeholder="you@email.com" required></div>
+      <div class="form-group"><label>Event Type</label><select required><option value="" disabled selected>Select event type</option><option>Wedding</option><option>Private Party</option><option>Corporate Event</option><option>Milestone Celebration</option><option>Other</option></select></div>
+      <div class="form-group"><label>Event Date</label><input type="date" required></div>
+      <div class="form-group"><label>Event Location / Venue</label><input type="text" placeholder="Venue name or address"></div>
+      <div class="form-group"><label>Estimated Guest Count</label><select required><option value="" disabled selected>Select range</option><option>Under 50 guests</option><option>50–75 guests</option><option>75–100 guests</option><option>100–125 guests</option><option>125–150 guests</option><option>150+ guests</option></select></div>
+      <div class="form-group"><label>Estimated Service Hours</label><select><option value="" disabled selected>Select hours</option><option>3 hours</option><option>4 hours</option><option>5 hours</option><option>6+ hours</option></select></div>
+      <div class="form-group full">
+        <label>Service Level</label>
+        <div class="tier-selector">
+          <label class="tier-opt" id="tier-classic" onclick="selectTier('classic')"><input type="radio" name="tier" value="classic"><div class="tier-opt-label">Tier 01</div><div class="tier-opt-name">Classic</div><div class="tier-opt-range">Up to 75 guests · $900–$1,250</div></label>
+          <label class="tier-opt" id="tier-elevated" onclick="selectTier('elevated')"><input type="radio" name="tier" value="elevated"><div class="tier-opt-label">Tier 02</div><div class="tier-opt-name">Elevated</div><div class="tier-opt-range">75–125 guests · From ~$3,000</div></label>
+          <label class="tier-opt" id="tier-premium" onclick="selectTier('premium')"><input type="radio" name="tier" value="premium"><div class="tier-opt-label">Tier 03</div><div class="tier-opt-name">Premium</div><div class="tier-opt-range">125+ guests · From $5,000</div></label>
+        </div>
+      </div>
+      <div class="form-group full"><label>Anything else we should know?</label><textarea placeholder="Custom cocktail ideas, venue details, special considerations..."></textarea></div>
+      <div class="submit-row"><button type="submit" class="btn-submit">Send Inquiry</button><p class="form-note">We respond within 24 hours. No commitment required.</p></div>
+    </form>
+  </div>
+</section>
+
+</div><!-- end view-home -->
+
+<!-- ═══════ PAYMENTS VIEW ═══════ -->
+<div id="view-payments" class="site-view" style="display:none;">
+  <div class="pv-wrap">
+    <div class="pv-header">
+      <p class="pv-eyebrow">Secure Checkout</p>
+      <h1 class="pv-headline">Pay Your <em>Deposit</em> or Balance</h1>
+      <p class="pv-sub">Once you have received your proposal, submit payment here to lock in your event date. No date is held without a signed agreement and deposit on file.</p>
+    </div>
+
+    <div class="pv-policy-strip">
+      <div class="pv-ps-item"><div class="pv-ps-label">Deposit</div><div class="pv-ps-val">50% of total · Due at signing</div></div>
+      <div class="pv-ps-item"><div class="pv-ps-label">Balance</div><div class="pv-ps-val">Remaining 50% · Due 7 days before event</div></div>
+      <div class="pv-ps-item"><div class="pv-ps-label">Refund Policy</div><div class="pv-ps-val">Deposits are non-refundable</div></div>
+      <div class="pv-ps-item"><div class="pv-ps-label">Secure Payment</div><div class="pv-ps-val">Powered by Stripe · All major cards accepted</div></div>
+    </div>
+
+    <div class="pv-grid">
+
+      <!-- DEPOSIT CARD -->
+      <div class="pv-card pv-card-featured">
+        <div class="pv-card-bar"></div>
+        <div class="pv-card-head">
+          <div class="pv-card-icon">🔐</div>
+          <div class="pv-card-title">Event Deposit</div>
+          <div class="pv-card-sub">50% of your quoted total · Reserves your date and locks in your team</div>
+        </div>
+        <div class="pv-card-body">
+          <div class="pv-field"><label class="pv-label">Full Name (as on contract)</label><input class="pv-input" type="text" id="depName" placeholder="Your full name"></div>
+          <div class="pv-field"><label class="pv-label">Email Address</label><input class="pv-input" type="email" id="depEmail" placeholder="your@email.com"></div>
+          <div class="pv-field"><label class="pv-label">Event Date</label><input class="pv-input" type="date" id="depDate"></div>
+          <div class="pv-field"><label class="pv-label">Deposit Amount ($)</label><input class="pv-input" type="number" id="depAmount" placeholder="Enter amount from your proposal" oninput="updateDepDisplay()"></div>
+          <div class="pv-amount-preview" id="depPreview" style="display:none;"><span class="pv-ap-label">Amount to charge:</span><span class="pv-ap-val" id="depPreviewVal"></span></div>
+          <div class="pv-note">ⓘ You will be redirected to a secure Stripe checkout. Card, Apple Pay &amp; Google Pay accepted.</div>
+          <button class="pv-btn" onclick="handleDeposit()">Pay Deposit Securely →</button>
+          <div class="pv-secure">🔒 &nbsp;256-bit SSL · Powered by Stripe · We never store card info</div>
+        </div>
+      </div>
+
+      <!-- BALANCE CARD -->
+      <div class="pv-card">
+        <div class="pv-card-bar pv-card-bar-gold"></div>
+        <div class="pv-card-head">
+          <div class="pv-card-icon">✅</div>
+          <div class="pv-card-title">Remaining Balance</div>
+          <div class="pv-card-sub">Final 50% · Due 7 days before your event to complete your booking</div>
+        </div>
+        <div class="pv-card-body">
+          <div class="pv-field"><label class="pv-label">Full Name (as on contract)</label><input class="pv-input" type="text" id="balName" placeholder="Your full name"></div>
+          <div class="pv-field"><label class="pv-label">Email Address</label><input class="pv-input" type="email" id="balEmail" placeholder="your@email.com"></div>
+          <div class="pv-field"><label class="pv-label">Event Date</label><input class="pv-input" type="date" id="balDate"></div>
+          <div class="pv-field"><label class="pv-label">Balance Amount ($)</label><input class="pv-input" type="number" id="balAmount" placeholder="Enter amount from your proposal" oninput="updateBalDisplay()"></div>
+          <div class="pv-amount-preview" id="balPreview" style="display:none;"><span class="pv-ap-label">Amount to charge:</span><span class="pv-ap-val" id="balPreviewVal"></span></div>
+          <div class="pv-note">ⓘ You will be redirected to a secure Stripe checkout. Card, Apple Pay &amp; Google Pay accepted.</div>
+          <button class="pv-btn pv-btn-gold" onclick="handleBalance()">Pay Balance Securely →</button>
+          <div class="pv-secure">🔒 &nbsp;256-bit SSL · Powered by Stripe · We never store card info</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FAQ -->
+    <div class="pv-faq">
+      <div class="pv-faq-title">Payment Questions</div>
+      <div class="pv-faq-item"><div class="pv-faq-q" onclick="this.parentElement.classList.toggle('pv-open')">When is my deposit due?<span>+</span></div><div class="pv-faq-a">Your deposit is due at the time of signing your event agreement. Your date is not held until both the signed contract and the 50% deposit are received by Humo Bar Co.</div></div>
+      <div class="pv-faq-item"><div class="pv-faq-q" onclick="this.parentElement.classList.toggle('pv-open')">When is the remaining balance due?<span>+</span></div><div class="pv-faq-a">The remaining 50% balance is due no later than 7 days before your event. Services will not be provided without full payment confirmed in advance.</div></div>
+      <div class="pv-faq-item"><div class="pv-faq-q" onclick="this.parentElement.classList.toggle('pv-open')">Is my deposit refundable?<span>+</span></div><div class="pv-faq-a">Deposits are non-refundable. Cancellations 14+ days out incur no additional charges. Cancellations 7–13 days out require 75% of total. Within 7 days requires 100%.</div></div>
+      <div class="pv-faq-item"><div class="pv-faq-q" onclick="this.parentElement.classList.toggle('pv-open')">What payment methods are accepted?<span>+</span></div><div class="pv-faq-a">All major credit and debit cards, Apple Pay, and Google Pay. All payments are processed securely through Stripe.</div></div>
+      <div class="pv-faq-item"><div class="pv-faq-q" onclick="this.parentElement.classList.toggle('pv-open')">I have a question about my invoice amount.<span>+</span></div><div class="pv-faq-a">If you have questions about your quoted amount or deposit total, please reach out before submitting. Only pay after receiving a formal proposal from Humo Bar Co.</div></div>
+    </div>
+
+  </div>
+</div>
+<!-- end payments view -->
+
+<!-- ═══════ ADMIN VIEW ═══════ -->
+<div id="view-admin" class="site-view" style="display:none;">
+
+  <!-- LOGIN GATE -->
+  <div id="av-login" class="av-login-wrap">
+    <div class="av-login-box">
+      <div class="av-login-logo">HUMO <span>Bar</span> Co.</div>
+      <div class="av-login-sub">Admin Portal · Restricted Access</div>
+      <div class="av-field"><label class="av-label">Username / Email</label><input class="av-input" type="email" id="avUser" placeholder="Enter your email" onkeydown="if(event.key==='Enter')document.getElementById('avPass').focus()"></div>
+      <div class="av-field"><label class="av-label">Password</label><input class="av-input" type="password" id="avPass" placeholder="Enter your password" onkeydown="if(event.key==='Enter')avLogin()"></div>
+      <button class="av-login-btn" onclick="avLogin()">Access Admin Portal</button>
+      <div class="av-login-error" id="avLoginError">Incorrect username or password.</div>
+    </div>
+  </div>
+
+  <!-- ADMIN PORTAL (shown after login) -->
+  <div id="av-portal" class="av-portal-wrap" style="display:none;">
+
+    <!-- SIDEBAR -->
+    <div class="av-sidebar">
+      <div class="av-sidebar-logo"><div class="av-sidebar-brand">HUMO <span>Bar</span> Co.</div><div class="av-sidebar-badge">Admin Portal</div></div>
+      <nav class="av-sidebar-nav">
+        <div class="av-nav-section">Overview</div>
+        <div class="av-nav-link active" onclick="avShowPage('dashboard',this)"><span class="av-nav-icon">◎</span>Dashboard</div>
+        <div class="av-nav-section">Operations</div>
+        <div class="av-nav-link" onclick="avShowPage('inquiries',this)"><span class="av-nav-icon">✉</span>Inquiries<span class="av-inbox-count" id="avInboxCount" style="display:none;"></span></div>
+        <div class="av-nav-link" onclick="avShowPage('calculator',this)"><span class="av-nav-icon">📋</span>Quote Calculator</div>
+        <div class="av-nav-link" onclick="avShowPage('payments',this)"><span class="av-nav-icon">💳</span>Payments</div>
+        <div class="av-nav-link" onclick="avShowPage('analytics',this)"><span class="av-nav-icon">📊</span>Analytics</div>
+        <div class="av-nav-section">Site</div>
+        <div class="av-nav-link" onclick="avShowPage('adjustments',this)"><span class="av-nav-icon">✏</span>Site Adjustments</div>
+        <div class="av-nav-link" onclick="avShowPage('users',this)"><span class="av-nav-icon">👥</span>Admin Users</div>
+        <div class="av-nav-link" onclick="avShowPage('settings',this)"><span class="av-nav-icon">⚙</span>Settings</div>
+      </nav>
+      <div class="av-sidebar-footer">
+        <div class="av-sidebar-user"><strong>Gregory Young</strong>gregory_young32@yahoo.com</div>
+        <button class="av-logout-btn" onclick="avLogout()">Log Out</button>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="av-main">
+      <div class="av-topbar"><div class="av-topbar-title" id="avTopbarTitle">Dashboard <span>Overview</span></div><div class="av-topbar-date" id="avTopbarDate"></div></div>
+
+      <!-- DASHBOARD -->
+      <div class="av-page active" id="avp-dashboard">
+        <div class="av-page-header"><div class="av-page-title">Good to see you, <em>Gregory</em></div><div class="av-page-sub">Your business at a glance</div></div>
+        <div class="av-kpi-row">
+          <div class="av-kpi"><div class="av-kpi-label">Total Inquiries</div><div class="av-kpi-val" id="avKpiTotal">0</div></div>
+          <div class="av-kpi"><div class="av-kpi-label">New Inquiries</div><div class="av-kpi-val av-ember" id="avKpiNew">0</div></div>
+          <div class="av-kpi"><div class="av-kpi-label">Booked Events</div><div class="av-kpi-val av-green" id="avKpiBooked">0</div></div>
+          <div class="av-kpi"><div class="av-kpi-label">Quotes Built</div><div class="av-kpi-val av-gold" id="avKpiQuotes">0</div></div>
+        </div>
+        <div class="av-dash-grid">
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Recent Inquiries</div><button class="av-card-action" onclick="avShowPage('inquiries',document.querySelector('[onclick*=inquiries]'))">View All →</button></div><div class="av-card-body" id="avDashRecent"><div class="av-empty">No inquiries yet.</div></div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Quick Actions</div></div><div class="av-qa-grid">
+            <button class="av-qa" onclick="avShowPage('inquiries',document.querySelector('[onclick*=inquiries]'))"><div class="av-qa-icon">✉</div><div>View Inquiries</div></button>
+            <button class="av-qa" onclick="avShowPage('calculator',document.querySelector('[onclick*=calculator]'))"><div class="av-qa-icon">📋</div><div>Build Quote</div></button>
+            <button class="av-qa" onclick="avShowPage('analytics',document.querySelector('[onclick*=analytics]'))"><div class="av-qa-icon">📊</div><div>Analytics</div></button>
+            <button class="av-qa" onclick="avShowPage('adjustments',document.querySelector('[onclick*=adjustments]'))"><div class="av-qa-icon">✏</div><div>Adjust Site</div></button>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- INQUIRIES -->
+      <div class="av-page" id="avp-inquiries">
+        <div class="av-page-header"><div class="av-page-title">Inquiry <em>Inbox</em></div><div class="av-page-sub">All client inquiries submitted through the website</div></div>
+        <div class="av-inbox-toolbar">
+          <input class="av-search" type="text" placeholder="Search by name, email, event type..." oninput="avFilterInquiries(this.value)">
+          <button class="av-filter active" onclick="avFilterStatus('all',this)">All</button>
+          <button class="av-filter" onclick="avFilterStatus('New',this)">New</button>
+          <button class="av-filter" onclick="avFilterStatus('Reviewed',this)">Reviewed</button>
+          <button class="av-filter" onclick="avFilterStatus('Booked',this)">Booked</button>
+        </div>
+        <div class="av-table-wrap">
+          <table class="av-table" id="avInqTable"><thead><tr><th>Client</th><th>Event Type</th><th>Date</th><th>Guests</th><th>Tier</th><th>Received</th><th>Status</th><th>Actions</th></tr></thead><tbody id="avInqBody"><tr><td colspan="8" class="av-empty-cell">No inquiries yet.</td></tr></tbody></table>
+        </div>
+      </div>
+
+      <!-- QUOTE CALCULATOR -->
+      <div class="av-page" id="avp-calculator">
+        <div class="av-page-header"><div class="av-page-title">Quote <em>Calculator</em></div><div class="av-page-sub">Build itemized quotes · 35% minimum margin enforced</div></div>
+        <div class="av-calc-layout">
+          <!-- FORM -->
+          <div class="av-calc-form av-card">
+            <div class="av-card-head"><div class="av-card-title">Event Details</div></div>
+            <div class="av-card-body">
+              <div class="av-calc-section">Client Information</div>
+              <div class="av-row2"><div class="av-field-g"><label class="av-flabel">Client Name</label><input class="av-finput" type="text" id="cName" placeholder="Full name"></div><div class="av-field-g"><label class="av-flabel">Event Date</label><input class="av-finput" type="date" id="cDate"></div></div>
+              <div class="av-row2"><div class="av-field-g"><label class="av-flabel">Event Type</label><select class="av-fselect" id="cType"><option value="">Select</option><option>Wedding</option><option>Corporate Event</option><option>Private Party</option><option>Milestone Celebration</option><option>Other</option></select></div><div class="av-field-g"><label class="av-flabel">Venue</label><input class="av-finput" type="text" id="cVenue" placeholder="Venue name"></div></div>
+              <div class="av-calc-divider"></div>
+              <div class="av-calc-section">Event Specifications</div>
+              <div class="av-row2"><div class="av-field-g"><label class="av-flabel">Guest Count</label><input class="av-finput" type="number" id="cGuests" placeholder="e.g. 100" oninput="avAutoStaff()"></div><div class="av-field-g"><label class="av-flabel">Service Hours</label><select class="av-fselect" id="cHours"><option value="3">3 hours</option><option value="4" selected>4 hours</option><option value="5">5 hours</option><option value="6">6 hours</option><option value="7">7 hours</option></select></div></div>
+              <div class="av-field-g"><label class="av-flabel">Service Tier</label><select class="av-fselect" id="cTier" onchange="avRunCalc()"><option value="classic">Tier 01 — Classic (up to 75 guests · $900–$1,250 flat)</option><option value="elevated" selected>Tier 02 — Elevated ($1,250 base + $30/guest)</option><option value="premium">Tier 03 — Premium ($1,750 base + $37/guest)</option></select><div class="av-fhint" id="avTierHint">Elevated: recommended for 75–125 guests</div></div>
+              <div class="av-calc-divider"></div>
+              <div class="av-calc-section">Staffing</div>
+              <div class="av-staff-row"><div class="av-staff-info"><div class="av-staff-name">Lead Bartenders</div><div class="av-staff-rate">$200 / 4-hr shift</div></div><div class="av-qty-ctrl"><button class="av-qty-btn" onclick="avAdjQty('cBartenders',-1)">−</button><input class="av-qty-val" type="number" id="cBartenders" value="2" min="1" oninput="avRunCalc()"><button class="av-qty-btn" onclick="avAdjQty('cBartenders',1)">+</button></div><div class="av-staff-sub" id="avSubBars">$400</div></div>
+              <div class="av-staff-row"><div class="av-staff-info"><div class="av-staff-name">Barbacks</div><div class="av-staff-rate">$100 / 4-hr shift</div></div><div class="av-qty-ctrl"><button class="av-qty-btn" onclick="avAdjQty('cBarbacks',-1)">−</button><input class="av-qty-val" type="number" id="cBarbacks" value="1" min="0" oninput="avRunCalc()"><button class="av-qty-btn" onclick="avAdjQty('cBarbacks',1)">+</button></div><div class="av-staff-sub" id="avSubBacks">$100</div></div>
+              <div class="av-staff-row"><div class="av-staff-info"><div class="av-staff-name">Tray-Pass Servers</div><div class="av-staff-rate">$225 / shift</div></div><div class="av-qty-ctrl"><button class="av-qty-btn" onclick="avAdjQty('cServers',-1)">−</button><input class="av-qty-val" type="number" id="cServers" value="0" min="0" oninput="avRunCalc()"><button class="av-qty-btn" onclick="avAdjQty('cServers',1)">+</button></div><div class="av-staff-sub" id="avSubServers">$0</div></div>
+              <div class="av-calc-divider"></div>
+              <div class="av-calc-section">Add-Ons</div>
+              <div class="av-addon-grid">
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonCocktail')"><input type="checkbox" id="avAddonCocktail" data-cost="225" data-label="Custom Cocktail Dev."><div class="av-addon-check"></div><div><div class="av-addon-name">Custom Cocktail Dev.</div><div class="av-addon-price">$225 / cocktail</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonSmoked')"><input type="checkbox" id="avAddonSmoked" data-cost="325" data-label="Smoked Cocktail Exp."><div class="av-addon-check"></div><div><div class="av-addon-name">Smoked Cocktail Exp.</div><div class="av-addon-price">$325 flat</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonBatch')"><input type="checkbox" id="avAddonBatch" data-cost="225" data-label="Batch Cocktails"><div class="av-addon-check"></div><div><div class="av-addon-name">Batch Cocktails</div><div class="av-addon-price">$225 / batch</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonCups')"><input type="checkbox" id="avAddonCups" data-cost="275" data-label="Branded Cups"><div class="av-addon-check"></div><div><div class="av-addon-name">Branded Cups (150)</div><div class="av-addon-price">$275</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonExtraBar')"><input type="checkbox" id="avAddonExtraBar" data-cost="200" data-label="Extra Bartender"><div class="av-addon-check"></div><div><div class="av-addon-name">Extra Bartender</div><div class="av-addon-price">$200 / shift</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonExtraBack')"><input type="checkbox" id="avAddonExtraBack" data-cost="100" data-label="Extra Barback"><div class="av-addon-check"></div><div><div class="av-addon-name">Extra Barback</div><div class="av-addon-price">$100 / shift</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonBites')"><input type="checkbox" id="avAddonBites" data-cost="0" data-label="Small Bites"><div class="av-addon-check"></div><div><div class="av-addon-name">Small Bites</div><div class="av-addon-price">Enter cost below</div></div></label>
+                <label class="av-addon" onclick="avToggleAddon(this,'avAddonOT')"><input type="checkbox" id="avAddonOT" data-cost="0" data-label="Overtime"><div class="av-addon-check"></div><div><div class="av-addon-name">Overtime Hours</div><div class="av-addon-price">Rate below</div></div></label>
+              </div>
+              <div id="avBitesRow" style="display:none;margin-top:10px;"><div class="av-field-g"><label class="av-flabel">Small Bites Total ($)</label><input class="av-finput" type="number" id="cBitesCost" placeholder="e.g. 800" oninput="avRunCalc()"></div></div>
+              <div id="avOTRow" style="display:none;margin-top:10px;"><div class="av-row2"><div class="av-field-g"><label class="av-flabel">OT Hours</label><input class="av-finput" type="number" id="cOTHours" value="1" min="1" oninput="avRunCalc()"></div><div class="av-field-g"><label class="av-flabel">Rate / Bartender / hr ($)</label><input class="av-finput" type="number" id="cOTRate" value="175" oninput="avRunCalc()"></div></div></div>
+              <div class="av-calc-divider"></div>
+              <div class="av-calc-section">Your Costs <span style="font-size:0.58rem;color:#555;font-family:'Montserrat',sans-serif;font-weight:300;">(internal only)</span></div>
+              <div class="av-row2"><div class="av-field-g"><label class="av-flabel">Supplies / Mixers ($)</label><input class="av-finput" type="number" id="cSupplies" value="200" oninput="avRunCalc()"></div><div class="av-field-g"><label class="av-flabel">Equipment / Transport ($)</label><input class="av-finput" type="number" id="cEquip" value="100" oninput="avRunCalc()"></div></div>
+              <div class="av-field-g"><label class="av-flabel">Miscellaneous ($)</label><input class="av-finput" type="number" id="cMisc" value="0" oninput="avRunCalc()"></div>
+              <button class="av-calc-btn" onclick="avRunCalc()">Calculate &amp; Generate Quote</button>
+            </div>
+          </div>
+          <!-- RECEIPT -->
+          <div class="av-receipt-col">
+            <div class="av-alert" id="avAlert" style="display:none;"></div>
+            <div class="av-card"><div class="av-card-head"><div class="av-card-title">Itemized Quote</div><div class="av-receipt-status rsb-pending" id="avReceiptStatus">Pending</div></div><div class="av-receipt-body" id="avReceiptBody"><div class="av-empty" style="padding:30px 0;">Enter event details to build the quote.</div></div></div>
+            <button class="av-print-btn" id="avPrintBtn" style="display:none;" onclick="window.print()">⬡ &nbsp;Print / Export as PDF</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAYMENTS PAGE -->
+      <div class="av-page" id="avp-payments">
+        <div class="av-page-header"><div class="av-page-title">Payment <em>Overview</em></div><div class="av-page-sub">Track deposits and balances · Powered by Stripe</div></div>
+        <div class="av-kpi-row"><div class="av-kpi"><div class="av-kpi-label">Total Collected</div><div class="av-kpi-val av-gold">$0</div></div><div class="av-kpi"><div class="av-kpi-label">Deposits Pending</div><div class="av-kpi-val">$0</div></div><div class="av-kpi"><div class="av-kpi-label">Balances Due</div><div class="av-kpi-val">$0</div></div><div class="av-kpi"><div class="av-kpi-label">Booked Events</div><div class="av-kpi-val av-green" id="avPayBooked">0</div></div></div>
+        <div class="av-card" style="margin-top:20px;">
+          <div class="av-card-head"><div class="av-card-title">Stripe Setup Required</div></div>
+          <div class="av-card-body">
+            <div class="av-stripe-notice">
+              <strong>⚡ Connect Stripe to Accept Online Payments</strong>
+              <ol class="av-stripe-steps">
+                <li>Go to <strong>dashboard.stripe.com</strong> and create a free account</li>
+                <li>Complete identity verification (about 5 minutes)</li>
+                <li>Go to <strong>Payment Links → + Create</strong> — make one for "Event Deposit" and one for "Remaining Balance"</li>
+                <li>Open <strong>humo-bar-co.html</strong> in a text editor and search for <strong>YOUR_DEPOSIT_LINK_HERE</strong> — replace with your Stripe link</li>
+                <li>Do the same for <strong>YOUR_BALANCE_LINK_HERE</strong></li>
+                <li>Save the file. Stripe deposits to your bank every 2 business days.</li>
+              </ol>
+            </div>
+            <div style="margin-top:20px;font-size:0.72rem;color:#555;text-align:center;padding:30px;">Transaction history will appear here once Stripe is connected.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ANALYTICS -->
+      <div class="av-page" id="avp-analytics">
+        <div class="av-page-header"><div class="av-page-title">Analytics <em>Dashboard</em></div><div class="av-page-sub">Page views, inquiries, and performance tracking</div></div>
+        <div class="av-kpi-row"><div class="av-kpi"><div class="av-kpi-label">Views Today</div><div class="av-kpi-val av-gold" id="anToday">0</div></div><div class="av-kpi"><div class="av-kpi-label">Views This Week</div><div class="av-kpi-val av-gold" id="anWeek">0</div></div><div class="av-kpi"><div class="av-kpi-label">Views This Month</div><div class="av-kpi-val av-gold" id="anMonth">0</div></div><div class="av-kpi"><div class="av-kpi-label">Total Views</div><div class="av-kpi-val" id="anTotal">0</div></div></div>
+        <div class="av-kpi-row" style="margin-top:12px;"><div class="av-kpi"><div class="av-kpi-label">Inquiries Today</div><div class="av-kpi-val av-ember" id="anInqToday">0</div></div><div class="av-kpi"><div class="av-kpi-label">Inquiries This Week</div><div class="av-kpi-val av-ember" id="anInqWeek">0</div></div><div class="av-kpi"><div class="av-kpi-label">Inquiries This Month</div><div class="av-kpi-val av-ember" id="anInqMonth">0</div></div><div class="av-kpi"><div class="av-kpi-label">Total Inquiries</div><div class="av-kpi-val av-green" id="anInqTotal">0</div></div></div>
+        <div class="av-card" style="margin-top:20px;"><div class="av-card-head"><div class="av-card-title">Page Views — Last 14 Days</div><button class="av-card-action" onclick="avLoadAnalytics()">↻ Refresh</button></div><div class="av-card-body"><div id="avChart" style="display:flex;align-items:flex-end;gap:5px;height:100px;margin-bottom:6px;"></div><div id="avChartLabels" style="display:flex;gap:5px;"></div></div></div>
+        <div class="av-card" style="margin-top:16px;"><div class="av-card-head"><div class="av-card-title">Inquiry Timeline</div></div><div class="av-card-body" id="avInqTimeline"><div class="av-empty">No inquiries yet.</div></div></div>
+      </div>
+
+      <!-- SITE ADJUSTMENTS -->
+      <div class="av-page" id="avp-adjustments">
+        <div class="av-page-header"><div class="av-page-title">Site <em>Adjustments</em></div><div class="av-page-sub">Update live content visible to clients on the main website</div></div>
+        <div class="av-adj-grid">
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Business Information</div></div><div class="av-card-body">
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Business Tagline</label><input class="av-finput" type="text" value="Elevated Craft Cocktail Service | Professional Execution | Seamless Guest Experience"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Service City / Market</label><input class="av-finput" type="text" value="Austin, Texas"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Contact Email</label><input class="av-finput" type="email" value="gregory_young32@yahoo.com"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Phone Number</label><input class="av-finput" type="tel" placeholder="(512) 000-0000"></div>
+            <button class="av-save-btn" onclick="avShowToast('Business info saved.')">Save Changes</button>
+          </div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Package Pricing</div></div><div class="av-card-body">
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Classic — Flat Rate Range</label><input class="av-finput" type="text" value="$900–$1,250"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Elevated — Base Price ($)</label><input class="av-finput" type="number" value="1250"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Elevated — Per Guest Rate ($)</label><input class="av-finput" type="number" value="30"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Premium — Base Price ($)</label><input class="av-finput" type="number" value="1750"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Premium — Per Guest Rate ($)</label><input class="av-finput" type="number" value="37"></div>
+            <button class="av-save-btn" onclick="avShowToast('Pricing saved.')">Save Pricing</button>
+          </div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Cancellation Policy</div></div><div class="av-card-body">
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Deposit</label><input class="av-finput" type="text" value="50% non-refundable"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">14+ Days Out</label><input class="av-finput" type="text" value="No additional charges"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">7–13 Days Out</label><input class="av-finput" type="text" value="75% of total invoice due"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Within 7 Days</label><input class="av-finput" type="text" value="100% of total invoice due"></div>
+            <button class="av-save-btn" onclick="avShowToast('Policy saved.')">Save Policy</button>
+          </div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Stripe Payment Links</div></div><div class="av-card-body">
+            <div style="font-size:0.68rem;color:#888;margin-bottom:14px;line-height:1.7;">Paste your Stripe Payment Link URLs here. Get them from dashboard.stripe.com → Payment Links.</div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Deposit Payment Link URL</label><input class="av-finput" type="url" id="avStripeDeposit" placeholder="https://buy.stripe.com/..."></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Balance Payment Link URL</label><input class="av-finput" type="url" id="avStripeBalance" placeholder="https://buy.stripe.com/..."></div>
+            <button class="av-save-btn" onclick="avSaveStripeLinks()">Save & Activate Links</button>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- ADMIN USERS -->
+      <div class="av-page" id="avp-users">
+        <div class="av-page-header"><div class="av-page-title">Admin <em>Users</em></div><div class="av-page-sub">Grant and revoke portal access</div></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Active Admin Users</div></div><div class="av-card-body" id="avUserList"></div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Grant Access</div></div><div class="av-card-body">
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Full Name</label><input class="av-finput" type="text" id="avNewName" placeholder="e.g. Jane Smith"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Email / Username</label><input class="av-finput" type="email" id="avNewEmail" placeholder="jane@email.com"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Temporary Password</label><input class="av-finput" type="text" id="avNewPass" placeholder="Set a temporary password"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Access Level</label><select class="av-fselect" id="avNewRole"><option value="viewer">Viewer — Read only</option><option value="staff">Staff — Inquiries + Calculator</option><option value="manager">Manager — Full access (no user mgmt)</option></select></div>
+            <button class="av-calc-btn" style="margin-top:0;" onclick="avAddUser()">Grant Access</button>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- SETTINGS -->
+      <div class="av-page" id="avp-settings">
+        <div class="av-page-header"><div class="av-page-title">Admin <em>Settings</em></div><div class="av-page-sub">Manage your credentials and portal preferences</div></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Change Password</div></div><div class="av-card-body">
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Current Password</label><input class="av-finput" type="password" placeholder="Current password"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">New Password</label><input class="av-finput" type="password" placeholder="New password"></div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Confirm New Password</label><input class="av-finput" type="password" placeholder="Confirm new password"></div>
+            <button class="av-save-btn" onclick="avShowToast('To permanently update credentials, edit the password in the HTML file directly.')">Save</button>
+          </div></div>
+          <div class="av-card"><div class="av-card-head"><div class="av-card-title">Minimum Profit Margin</div></div><div class="av-card-body">
+            <div style="font-size:0.72rem;color:#888;margin-bottom:14px;line-height:1.7;">The calculator uses this as the floor. Quotes below this trigger a warning or block.</div>
+            <div class="av-field-g" style="margin-bottom:14px;"><label class="av-flabel">Minimum Margin (%)</label><input class="av-finput" type="number" value="35" min="10" max="60" id="avMinMargin"></div>
+            <button class="av-save-btn" onclick="avShowToast('Margin threshold saved.')">Save</button>
+          </div></div>
+        </div>
+      </div>
+
+    </div><!-- end av-main -->
+  </div><!-- end av-portal-wrap -->
+</div>
+<!-- end admin view -->
+
+<footer>
+  <div>
+    <div class="footer-logo">Humo Bar Co.</div>
+    <div class="footer-tag">Elevated Craft Cocktail Service · Austin, Texas</div>
+    <div class="footer-detail">Professional event bartending for weddings,<br>corporate events, and private celebrations.<br><br>Dry hire · Certified bartenders · Structured execution</div>
+  </div>
+  <div>
+    <ul class="footer-links">
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#process">Our Process</a></li>
+      <li><a href="#why">Why Humo</a></li>
+      <li><a href="#policies">Policies</a></li>
+      <li><a href="#inquiry">Book Your Event</a></li>
+      <li><a href="#" onclick="showView('payments'); return false;">Pay Deposit</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 Humo Bar Co. · Austin, TX · All rights reserved</div>
+    <div class="footer-copy">This is not freelance bartending. This is a structured hospitality operation.</div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">✓ &nbsp; Inquiry received — we'll be in touch within 24 hours.</div>
+
+<!-- INQUIRY DETAIL MODAL -->
+<div class="av-modal-overlay" id="avModal">
+  <div class="av-modal">
+    <div class="av-modal-head">
+      <div class="av-modal-title" id="avModalTitle">Inquiry Details</div>
+      <button class="av-modal-close" onclick="document.getElementById('avModal').classList.remove('open')">x</button>
+    </div>
+    <div class="av-modal-body" id="avModalBody"></div>
+    <div class="av-modal-footer">
+      <button class="av-modal-btn av-modal-btn-primary" onclick="if(avCurrentInqIdx!==null){avLoadInqToCalc(avCurrentInqIdx);}">Build Quote</button>
+      <button class="av-modal-btn av-modal-btn-secondary" onclick="document.getElementById('avModal').classList.remove('open')">Close</button>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
